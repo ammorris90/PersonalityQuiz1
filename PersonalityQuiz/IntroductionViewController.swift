@@ -15,6 +15,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    @IBAction func startQuizPressed(_ sender: Any) {
+        performSegue(withIdentifier: "StartQuiz", sender: nil)
+    }
+    @IBAction func unwindToIntroVC(segue: UIStoryboardSegue) {
+        
+    }
 }
 
