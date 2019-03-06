@@ -20,9 +20,9 @@ struct Answer {
     var emperor: emperorType
 }
 enum emperorType : Character {
-  case basil = "☠️"
+  case basil = "⚔️"
     case justinian = "👑"
-    case komnenos = "👪"
+    case komnenos = "👨‍👦‍👦"
     case constantineXI = "☦️"
     
     var emperorDescription: String {
@@ -32,7 +32,7 @@ enum emperorType : Character {
         case .justinian:
             return "You're Justinian the Great! Above all maginficent and bold in ambition. You attracted great friends and exploit their talents. While grand in vision you tend to spend every penny you have and overtend yourself. However your actions and legacy will not be soon forgotten leaving the world a grander, more wonderous place"
         case .komnenos: return "You're Alexious Komnenos! The right person at the right time. A problem solver of the highest calibur and social mastermind of the highest calibur. While you may not shine in conflict, you certainly take the cake when it comes to finding a new solution. Devious and shrewd, you'll get your way, even if its through someone elses moves"
-        case .constantineXI: return "You're Constantine the XI. You may be broke, and you're home a mere shadow of past glory. But danger looming at the gates, you're not one to turn and run. Braver than any man, an inspiration to those who would follow, and loyal to your home. While not always sucessfuly you're a dangerous opponent to underestimate, you won't give them an inch without a fight. Perhaps you won't succeed but you stand as hero for the ages unquestioned in bravery"
+        case .constantineXI: return "You're Constantine the XI. You may be broke, and you're home a mere shadow of its former glory. But with danger looming at the gates, you're not one to turn and run. Braver than any man, an inspiration to those who would follow, and loyal to your home. While not always sucessful; you're a dangerous opponent to underestimate as you won't give them an inch without a fight. Perhaps you won't succeed but you stand as hero for throughout the ages, unquestioned in their bravery"
         }
     }
     

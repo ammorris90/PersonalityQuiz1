@@ -55,7 +55,7 @@ class QuestionViewController: UIViewController {
                 answer:[
             Answer(text: "Start building the biggest temple", emperor: .justinian),
             Answer(text: "Go to war with your neighbors", emperor: .basil),
-            Answer(text: "Reorganize the power structure", emperor: .komnenos),
+            Answer(text: "Creating a dynasty", emperor: .komnenos),
             Answer(text: "Just try not to die", emperor: .constantineXI)
                         ]),
         Question(text: "Nuts, you’re out of money, how do you make more?", type: .single,
